@@ -1,0 +1,111 @@
+body {
+ margin: 0;
+ border: 0;
+ padding: 0;
+  background: url(../img/bg.jpg) no-repeat fixed bottom center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.container{
+   display: block;
+    width: 100%;
+    margin: 0;
+    padding:10% 0 50% 0;
+    border: 0;
+    position: relative;
+    outline: none;    
+}
+.imageLogo{
+    display: block;
+    margin: 0 auto 0 auto;
+ border: 0;
+ padding: 0;
+    width: 50%;
+}
+.imageLogo img{
+    display: block;
+    margin: 0;
+	border: 0;
+	padding: 0;
+	width:100% ; 
+}
+.textPart p{
+    display: block;
+    margin:9% auto 0 auto;
+	border: 0;
+	padding: 0;
+    color: #F0F0F0 ;
+    font-family: 'Arial', sans-serif;
+    font-size:22px;
+    text-align: center;
+    
+}
+.dropdownList{
+    display: block;
+    margin: 4% auto 0 auto;
+	border: 0;
+	padding: 0; 
+    width: 80%;
+}
+
+
+.dropdownList .nav-tabs{
+    border-bottom:2px solid #919396 !important;
+    border: 2px solid #919396;
+    width: 100%;
+	position:relative;
+}
+.dropdownList .nav-tabs>li>a:hover{
+    border-color:none !important;
+}
+.dropdownList .nav>li>a:focus, .dropdownList .nav>li>a:hover{
+   background-color:transparent !important; 
+}
+.dropdownList .nav .open>a, .dropdownList .nav .open>a:focus, .dropdownList .nav .open>a:hover{
+    border-color:none !important;
+	background-color: transparent !important;
+}
+.dropdownList .nav-tabs>li>a{
+    border: none !important;
+    white-space: nowrap !important;
+}
+.dropdownList a:focus, a:hover{
+    color:#fff !important;
+}
+.dropdownList a {
+    color:#fff !important;   
+}
+.dropdownList .nav>li{
+    width: 100%;
+}
+.dropdownList .caret{
+    border-top: none;
+    border-right:none;
+    border-left:none;
+	width:40px;
+	position:absolute;
+	right:4px;
+	top:4px;
+}
+.dropdownList .caret img{
+    width: 100%;
+
+}
+.dropdownList .dropdown-menu{
+    background-color: transparent ;
+    border: 2px solid #919396;
+    width:100%;
+    
+}
+
+
+.dropdownList .dropdown-menu>li>a:focus, .dropdownList .dropdown-menu>li>a:hover {
+	background-color: transparent !important;
+}
+.dropdownList .dropdown-menu>.active>a, .dropdownList .dropdown-menu>.active>a:focus, .dropdownList .dropdown-menu>.active>a:hover {
+	background-color: transparent !important;
+}
+
