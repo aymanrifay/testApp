@@ -113,7 +113,7 @@ public class WhitelistPlugin extends CordovaPlugin {
         if (allowedNavigations.isUrlWhiteListed(url)) {
             return true;
         }
-        return null; // Default policy
+        return true; // Default policy
     }
 
     @Override
@@ -124,7 +124,7 @@ public class WhitelistPlugin extends CordovaPlugin {
         if (allowedRequests.isUrlWhiteListed(url)) {
             return true;
         }
-        return null; // Default policy
+        return true; // Default policy
     }
 
     @Override
