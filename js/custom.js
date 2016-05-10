@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     var showData = $('#show-data');
 
-    $.getJSON('example.json', function (data) {
+    $.getJSON('http://188.95.64.51/wapgen/index.php?r=api/getIp', function (data) {
       var opHolder=data.Operators;
         
       for (i = 0; i < opHolder.length; i++) { 
