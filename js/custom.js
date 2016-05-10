@@ -6,7 +6,7 @@ $(document).ready(function () {
       var opHolder=data.Operators;
         
       for (i = 0; i < opHolder.length; i++) { 
-      showData.append("<li><a href=" + opHolder[i].portalLink+ ">" + opHolder[i].opertorName+"</a></li>");
+      showData.append("<li><a href='"+opHolder[i].portalLink+"'>"+opHolder[i].opertorName+"</a></li>");
          }
       
     });
